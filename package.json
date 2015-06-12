@@ -4,7 +4,9 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodejs index.js"
+    , "launch": "nodejs web.js"
+
   },
   "dependencies": {
     "express": "^4.0.0"
