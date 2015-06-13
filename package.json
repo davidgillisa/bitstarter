@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodejs index.js"
-    , "start": "nodejs web.js"
+    
 
   },
   "dependencies": {
