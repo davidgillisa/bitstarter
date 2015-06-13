@@ -1,10 +1,10 @@
 var express = require('express');
 var fs = require('fs');
-
+var logger = require('morgan');
 var app = express();
 
 var mybuf;
-app.use(express.logger());
+app.use(logger);
 
  mybuf=fs.readFileSync('index.html');
 
